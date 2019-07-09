@@ -13,6 +13,8 @@
 		904A0D1522C13A4700F9CF0F /* ArtBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 904A0D1322C13A4700F9CF0F /* ArtBook.xcdatamodeld */; };
 		904A0D1722C13A4800F9CF0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 904A0D1622C13A4800F9CF0F /* Assets.xcassets */; };
 		904A0D1A22C13A4800F9CF0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 904A0D1822C13A4800F9CF0F /* LaunchScreen.storyboard */; };
+		904A0D2222C13D6E00F9CF0F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904A0D2122C13D6E00F9CF0F /* SecondViewController.swift */; };
+		904A0D2622C145D600F9CF0F /* SelectImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 904A0D2522C145D600F9CF0F /* SelectImage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		904A0D1622C13A4800F9CF0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		904A0D1922C13A4800F9CF0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		904A0D1B22C13A4800F9CF0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		904A0D2122C13D6E00F9CF0F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		904A0D2522C145D600F9CF0F /* SelectImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SelectImage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,10 @@
 			children = (
 				904A0D0C22C13A4700F9CF0F /* AppDelegate.swift */,
 				904A0D0E22C13A4700F9CF0F /* ViewController.swift */,
+				904A0D2122C13D6E00F9CF0F /* SecondViewController.swift */,
 				904A0D1022C13A4700F9CF0F /* Main.storyboard */,
 				904A0D1622C13A4800F9CF0F /* Assets.xcassets */,
+				904A0D2522C145D600F9CF0F /* SelectImage.png */,
 				904A0D1822C13A4800F9CF0F /* LaunchScreen.storyboard */,
 				904A0D1B22C13A4800F9CF0F /* Info.plist */,
 				904A0D1322C13A4700F9CF0F /* ArtBook.xcdatamodeld */,
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				904A0D1A22C13A4800F9CF0F /* LaunchScreen.storyboard in Resources */,
+				904A0D2622C145D600F9CF0F /* SelectImage.png in Resources */,
 				904A0D1722C13A4800F9CF0F /* Assets.xcassets in Resources */,
 				904A0D1222C13A4700F9CF0F /* Main.storyboard in Resources */,
 			);
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				904A0D2222C13D6E00F9CF0F /* SecondViewController.swift in Sources */,
 				904A0D0F22C13A4700F9CF0F /* ViewController.swift in Sources */,
 				904A0D1522C13A4700F9CF0F /* ArtBook.xcdatamodeld in Sources */,
 				904A0D0D22C13A4700F9CF0F /* AppDelegate.swift in Sources */,
